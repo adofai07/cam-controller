@@ -109,7 +109,7 @@ if cap.isOpened():
             frames.append(img)
             
             if fcnt <= 20:
-                print(F"Collecting frames: {fcnt} / 10")
+                print(F"Collecting frames: {fcnt} / 20")
                 
             else:
                 prev = frames[0].copy()
